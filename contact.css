@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(9, 7, 42);
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(29, 24, 24);
+}
+
+.li-navbar {
+    padding: 20px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.li-navbar:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 24, 24);
+    height: 30px;
+}
